@@ -2,38 +2,31 @@
     margin: 0;
     padding: 0;
 }
-
 /* css variable */
 :root {
     --navbar-height: 59px;
 }
-
 /* navigation bar*/
 #navbar {
     display: flex;
     align-items: center;
 }
-
 /* navigation bar: logo and image */
 #logo {
     margin: 10px 34px;
 }
-
 #logo img {
     height: 59px;
     margin: 3px 6px;
 }
-
 /*  navigation bar:list styling */
 #navbar {
     position: relative;
 }
-
 #navbar ul {
     display: flex;
     font-family: 'baloo bhai' cursive;
 }
-
 #navbar::before {
     content: "";
     background-color: maroon;
@@ -43,19 +36,15 @@
     z-index: -1;
     opacity: 0.4;
 }
-
 #navbar ul li {
     /* color:white; */
     list-style: none;
     font-size: 1.3rem;
 }
-
 #navbar ul li a:hover {
     color: black;
-
     background-color: wheat;
 }
-
 #navbar ul li a {
     display: block;
     padding: 3px 22px;
@@ -98,13 +87,11 @@
     font-size: 1.5rem;
     font-family: 'Bree Serif', Serif;
 }
-
 /*services section */
 #services {
     margin: 34px;
     display: flex;
 }
-
 #services.box {
     border: 2px solid brown;
     padding: 34px;
@@ -113,22 +100,18 @@
     background: #f2f2f2;
     margin-bottom: 20px;
 }
-
 #services.box img {
     height: 150px;
     margin: auto;
     display: block;
 }
-
 #service.box p {
     font-family: 'Bree Serif', 'serif';
 }
-
 /*clients section */
 #client-section{
     height: 300px;
     position: relative;
-
 }
 #client-section::before{
     content: "";
@@ -139,9 +122,6 @@
     z-index: -1;
     opacity: 0.3;
 }
-
-
-
 #clients{
     display: flex;
     align-items: center;
@@ -149,16 +129,7 @@
 }
 .client-item{
 padding: 20px;
-
 }
-
-
-
-
-
-
-
-
 #client img{
     height: 3px;
 }
@@ -168,14 +139,12 @@ padding: 20px;
     padding: 15px;
     text-align: center;
 }
-
 .h-secondary {
     font-size: 2rem;
     padding: 15px;
     color: darkred;
     text-align: center;
 }
-
 .btn {
     padding: 7px 20px;
     border: 2px solid white;
